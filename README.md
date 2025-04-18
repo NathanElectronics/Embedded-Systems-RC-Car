@@ -7,8 +7,8 @@ An embedded systems project featuring a fully wireless RC car and controller sys
 ## 📌 Author / Contact Information
 
 **Nathan Chan**  
-Email: *nchan@domain.com*  
-GitHub: [github.com/nathanchan](https://github.com/nathanchan) *(example link — replace with actual)*
+Email: *nathanchan.1738@gmail.com*  
+GitHub: [github.com/NathanElectronics](https://github.com/NathanElectronics)
 
 ---
 
