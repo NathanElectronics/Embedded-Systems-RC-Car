@@ -1,1 +1,36 @@
-This project involved the design and implementation of an embedded RC car system utilizing four ESP32 microcontrollers to achieve real-time wireless communication using the ESP-NOW protocol. Two microcontrollers were mounted on the car: the first controlled dual DC motors via a motor driver and measured wheel speed using an infrared sensor with an encoder disk; the second managed steering through servo motors and handled obstacle detection using a Time-of-Flight (TOF) sensor. On the remote control, one microcontroller was responsible for collecting joystick inputs and serving as the central ESP-NOW data hub, while the other interfaced with a touchscreen TFT LCD display. This display featured a real-time speedometer derived from the IR sensor data and a live 2D visual map generated from TOF sensor readings, mimicking LiDAR-style visualization. The system enabled low-latency bidirectional communication, accurate speed tracking, and enhanced environmental awareness, resulting in a responsive and intelligent RC platform.
+# Embedded RC Car Cybertruck
+
+An embedded systems project featuring a fully wireless RC car and controller system using four ESP32 microcontrollers. The car integrates DC and servo motor control, real-time speed tracking, and Time-of-Flight (TOF) obstacle detection. Communication between modules is handled via ESP-NOW, enabling low-latency, peer-to-peer wireless communication. The remote control features a TFT LCD display that renders both a real-time speedometer and a 2D visual map of the environment ahead of the car.
+
+---
+
+## 📌 Author / Contact Information
+
+**Nathan Chan**  
+Email: *nchan@domain.com*  
+GitHub: [github.com/nathanchan](https://github.com/nathanchan) *(example link — replace with actual)*
+
+---
+
+## 🐞 Bug Tracker
+
+Submit bugs or feature requests via GitHub Issues:  
+[https://github.com/nathanchan/rc-cybertruck/issues](https://github.com/nathanchan/rc-cybertruck/issues)
+
+---
+
+## ⚠️ Known Issues
+
+- TOF sensor visualization occasionally lags if multiple objects are detected in quick succession.
+- ESP-NOW packet loss may occur if Wi-Fi is enabled during boot.
+- TFT LCD refresh rate is fixed; dynamic scaling not yet supported.
+
+---
+
+## 🛠️ Build Instructions
+
+1. Install **Arduino IDE** or **PlatformIO**.
+2. Install **ESP32 Board Support** via Boards Manager.
+3. Clone the repository:
+   ```bash
+   git clone https://github.com/nathanchan/rc-cybertruck.git
