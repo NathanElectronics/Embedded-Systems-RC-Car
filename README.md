@@ -15,7 +15,7 @@ GitHub: [github.com/NathanElectronics](https://github.com/NathanElectronics)
 ## 🐞 Bug Tracker
 
 Submit bugs or feature requests via GitHub Issues:  
-[https://github.com/nathanchan/rc-cybertruck/issues](nathanchan.1738@gmail.com)
+[nathanchan.1738@gmail.com](nathanchan.1738@gmail.com)
 
 ---
 
